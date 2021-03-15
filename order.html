@@ -1,35 +1,55 @@
-Order a Melongram
+<!doctype html>
+<html>
+    <head>
 
-There's no better way to show a loved one you care than with a Melongram.
+    </head>
 
-Each Melongram comes with a custom message printed on high-quality cardstock
-and your choice of a hand-picked, premium melon.
+    <body>
+        
+<title><h1>Order a Melongram</h1></title>
 
-Melon Options
+<p1>There's no better way to show a loved one you care than with a Melongram.</p1>
 
-Choose from one of these melons:
+<p2>Each Melongram comes with a custom message printed on high-quality cardstock
+and your choice of a hand-picked, premium melon.</p2>
 
-Watermelon $1,200.00
-Canteloupe $400.00
-Honeydew $1,750,00.00
+<h2>Melon Options</h2>
 
-Order Form
+<p3>Choose from one of these melons:</p3>
 
-Your name
+<table>
+<tr><td>Watermelon</td> <td>$1,200.00</td></tr>
+<tr><td>Canteloupe</td> <td>$400.00</td></tr>
+<tr><td>Honeydew</td> <td>$1,750,00.00</td></tr>
+</table>
 
-Who are we sending this to?
+<h2>Order Form</h2>
+<form>
+<input type ="text" name ="name">Your name</input>
 
-Choose a melon
-Watermleon
-Canteloupe
-Honeydew
+<input type="text" name="recipient">Who are we sending this to?</input>
 
-When should we deliver?
-Morning
-Evening
-Any time
+<p4>Choose a melon</p4>
+<select name ="melon">
+<option value = "watermelon">Watermleon</option>
+<option value = "canteloupe">Canteloupe</option>
+<option value = "honeydew">Honeydew</option>
+</select>
 
-Enter your message:
+<p5>When should we deliver?</p5>
 
-Subscribe to our newsletter
-Yes
+<input type="radio" name = "morning" value = "am">Morning</input>
+<input type="radio" name = "evening" value = "pm">Evening</input>
+<input type="radio" name = "anytime" value = "any">Any time</input>
+
+<p6>Enter your message:</p6>
+<textarea name = "message"></textarea>
+
+<p7>Subscribe to our newsletter</p7>
+<input type = "checkbox" name = "subscribe" value = "yes">
+Yes</input>
+<button type = "submit">Submit form</button>
+
+        </form> 
+    </body>
+</html>
